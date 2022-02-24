@@ -1,0 +1,21 @@
+html {
+background-color: floralwhite;    
+}
+
+
+
+p {
+color: darkblue;
+font: 18;
+}
+
+a {
+color: red;
+text-decoration: underline;
+}
+
+nav a {
+    color: darkmagenta;
+    text-decoration: none;
+}
+
