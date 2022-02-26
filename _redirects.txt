@@ -1,5 +1,5 @@
-/JoinBPN  /JoinBPN.html
-/BPNPartners  /BPNPartners.html
-/ContactUs  /ContactUs.html
-/ProgramsAndServices  /ProgramsAndServices.html
-/UpcomingBPN  /UpcomingBPN.html
+/join  /joinBPN.html
+/partners /bpnPartners.html
+/contact  /contactUs.html
+/programs-and-services  /programsAndServices.html
+/upcoming-events  /upcomingBPN.html
