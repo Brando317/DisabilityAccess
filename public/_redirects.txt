@@ -1,5 +1,0 @@
-/join   /joinBPN.html   200
-/partners   /bpnPartners.html   200
-/contact    /contactUs.html 200
-/programs-and-services  /programsAndServices.html   200
-/upcoming-events    /upcomingBPN.html 200
