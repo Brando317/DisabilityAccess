@@ -42,7 +42,7 @@
     <!-- 
   Timestamp,First name:,Last name:,Email address:,City:,State:,,Phone number:,Preferred contact method:,Are you (check all that apply):,"Please tell us more about yourself (What would you like the group to know about you, i.e., employer, career goals, entrepreneur, field of knowledge/experience…)",Do you give permission for your information to be included in the BPN directory?,How did you hear about BPN?,"Additional comments, questions, suggestions:"
  -->
-    <form method="post" name="join" data-netlify="true">
+    <form method="post" name="join" data-netlify="true" action="/bpnautoresponseforform">
       <div role="tablist" aria-multiselectable="true">
         <fieldset>
           <legend class="label" id="label_1">Basic Information</legend>
@@ -113,8 +113,8 @@
           </div>
         </fieldset>
         <fieldset>
-          <legend class="label" id="label_5">
-            Would you like to be paired with a BPN mentor? *
+<legend class="label" id="label_5">
+Would you like to be paired with a BPN mentor? *
           </legend>
           <div class="elements" id="panel_5" aria-labeledby="label_5">
             <input type="radio" name="PairedWithMentor" id="mt1" value="yes" />
