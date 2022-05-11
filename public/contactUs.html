@@ -100,27 +100,30 @@
     
     <h2> Send BPN a Message </h2>
     
-    <
+    <!--
     First name:,Last name:,Email address:
->
-    <form method="post" name="contact" data-netlify="true" action="/bpnautoresponseforcontact">
-<div role="tablist" aria-multiselectable="true">
-<fieldset>
-<legend class="label" id="label_1"> Send BPN a Message </legend>
-    <div class="elements" id="panel_1" aria-labeledby="label_1">
-    <input type="text" required name="FirstName" id="fn1" />
-    <label for="fn1"> First Name </label> <br />
-  <input type="text" required name="LastName" id="ln1" />
-  <label for="ln1"> Last Name </label> <br />
-  <input type="tel" required name="phone" id="p1" />
-  <label for="p1"> Phone </label> <br />
-  <input type="email" name="email" id="e1" />
-  <label for="e1"> Email </label> <br />
-  <label for="m1"> Enter your Message </label>
-  <textarea id="m1"> Enter your Message </textarea>
-  <button type="submit" id="s1"> Submit </button>
-  </fieldset>
-</div>
+    -->
+    <form method="post" name="contact" data-netlify="true" action="/bpnautoresponseforcontact" netlify>
+      <div role="tablist" aria-multiselectable="true">
+        <fieldset>
+          <legend class="label" id="label_1"> Send BPN a Message </legend>
+          <div class="elements" id="panel_1" aria-labeledby="label_1">
+            <input type="text" required name="FirstName" id="fn1" />
+            <label for="fn1"> First Name </label> <br />
+            <input type="text" required name="LastName" id="ln1" />
+            <label for="ln1"> Last Name </label> <br />
+            <input type="tel" required name="phone" id="p1" />
+            <label for="p1"> Phone </label> <br />
+            <input type="email" name="email" id="e1" />
+            <label for="e1"> Email </label> <br />
+            <label for="m1"> Enter your Message </label>
+            <textarea id="m1"> Enter your Message </textarea>
+            <button type="submit" id="s1"> Submit </button>
+          </div>
+        </fieldset>
+      </div>
+    </form>
+
   </main>
     <footer>
       <a href=""> Copyright </a>
