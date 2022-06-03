@@ -19,3 +19,6 @@ nav a {
     text-decoration: none;
 }
 
+.d-block {
+display: block;
+}
