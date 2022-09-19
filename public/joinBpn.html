@@ -51,9 +51,7 @@
       information, your details will remain confidential. We look forward to
       networking with you soon!
     </p>
-    <!-- 
-  Timestamp,First name:,Last name:,Email address:,City:,State:,,Phone number:,Preferred contact method:,Are you (check all that apply):,"Please tell us more about yourself (What would you like the group to know about you, i.e., employer, career goals, entrepreneur, field of knowledge/experience…)",Do you give permission for your information to be included in the BPN directory?,How did you hear about BPN?,"Additional comments, questions, suggestions:"
- -->
+    
     <form method="post" name="join" data-netlify="true" action="/bpnautoresponseforform">
       <div role="tablist" aria-multiselectable="true">
                 <fieldset>
@@ -61,9 +59,9 @@
           <div class="elements" aria-labelledby="label_A">
           <p>BPN is specifically designed for those that are blind or visually impaired. The only requirement to be a member of BPN is that you are blind or visually impaired. If you are not a BVI individual and would like to partner with BPN or be listed on our resource page, please email info@BlindProNet.org.</p>
           <p>I am: multiple choice answer: *</p>
-          <input type="radio" required id="fqa1" name="blind" value="yes" />
+          <input type="checkbox" required id="fqa1" name="blind" />
             <label for="fqa1">Blind</label> <br />
-          <input type="radio" required id="fqa2" name="VisuallyImpaired" value="yes" />
+          <input type="checkbox" required id="fqa2" name="VisuallyImpaired" />
         <label for="fqa2">Visually Impaired</label> <br />
         </div>
       </fieldset>
