@@ -22,3 +22,7 @@ nav a {
 .d-block {
 display: block;
 }
+
+#logo {
+height: 250px;
+}
