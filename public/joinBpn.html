@@ -1,192 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="BPN.css" />
+    <title>Join BPN</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-SC5STX2SKH"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="BPN.css" />
-  <title>Join BPN</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SC5STX2SKH"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      gtag("config", "G-SC5STX2SKH");
+    </script>
+  </head>
 
-    gtag('config', 'G-SC5STX2SKH');
-  </script>
-</head>
+  <body>
+    <a href="#content" class="skip"> Skip to Main Content </a>
 
-<body>
-  <a href="#content" class="skip"> Skip to Main Content </a>
+    <header>
+      <nav aria-label="Site Navigation">
+        <a class="d-block" href="/"
+          ><img src="./BPN_1-removebg-preview.png" id="logo" alt="BPN Home"
+        /></a>
 
-  <header>
-    <nav aria-label="Site Navigation">
-      <a class="d-block" href="/"><img src="./BPN_1-removebg-preview.png" id="logo" alt="BPN Home" /></a>
-        
-        <a class="d-block" href="/programs-and-services"> Programs and Services </a>
+        <a class="d-block" href="/programs-and-services">
+          Programs and Services
+        </a>
         <a class="d-block" href="/join" class="d-block"> Join BPN </a>
-        <a class="d-block" href="/BVIEmpowered.html">BVI Empowered Podcast</a>                
-        
+        <a class="d-block" href="/BVIEmpowered.html">BVI Empowered Podcast</a>
+
         <a class="d-block" href="/partners"> BVI Partners/Resources </a>
         <a class="d-block" href="bookwithbpn.html">Book with BPN</a>
         <a class="d-block" href="/contact"> Contact Us </a>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
-  <main id="content">
-    <h1>Join BPN</h1>
+    <main id="content">
+      <h1>Join BPN</h1>
 
-    <h2>Becoming a Member</h2>
-    <p>
-      Becoming a member of Blind Professionals Network is absolutely FREE! BPN
-      will never charge for any of our programs or services. Join the Blind
-      Professionals Network and enjoy the benefits today.
-    </p>
+      <h2>Becoming a Member</h2>
+      <p>
+        Becoming a member of Blind Professionals Network is absolutely FREE! BPN
+        will never charge for any of our programs or services. Join the Blind
+        Professionals Network and enjoy the benefits today.
+      </p>
 
-    <p>
-      Complete the form below and indicate if you would like to share your
-      information with other BPN members. If you choose not to share your
-      information, your details will remain confidential. We look forward to
-      networking with you soon!
-    </p>
-    
-    <form method="post" name="join" data-netlify="true" action="/bpnautoresponseforform">
-      <div role="tablist" aria-multiselectable="true">
-                <fieldset>
-          <legend class="label" id="label_A">Attention, BPN is specifically designed for those that are blind or visually impaired. The only requirement to be a member of BPN is that you are blind or visually impaired. If you are not a BVI individual and would like to partner with BPN or be listed on our resource page, please email info@BlindProNet.org.</legend>
-          <div class="elements" aria-labelledby="label_A">
-          <p>BPN is specifically designed for those that are blind or visually impaired. The only requirement to be a member of BPN is that you are blind or visually impaired. If you are not a BVI individual and would like to partner with BPN or be listed on our resource page, please email info@BlindProNet.org.</p>
-          <p>I am: multiple choice answer: *</p>
-          <input type="radio" id="fqa1" name="blind" />
-            <label for="fqa1">Blind</label> <br />
-          <input type="radio" id="fqa2" name="VisuallyImpaired" />
-        <label for="fqa2">Visually Impaired</label> <br />
+      <p>
+        Complete the form below and indicate if you would like to share your
+        information with other BPN members. If you choose not to share your
+        information, your details will remain confidential. We look forward to
+        networking with you soon!
+      </p>
+
+      <form
+        method="post"
+        name="join"
+        data-netlify="true"
+        action="/bpnautoresponseforform"
+      >
+        <div role="tablist" aria-multiselectable="true">
+          <fieldset>
+            <legend class="label" id="label_A">
+              Attention, BPN is specifically designed for those that are blind
+              or visually impaired. The only requirement to be a member of BPN
+              is that you are blind or visually impaired. If you are not a BVI
+              individual and would like to partner with BPN or be listed on our
+              resource page, please email info@BlindProNet.org.
+            </legend>
+            <div class="elements" aria-labelledby="label_A">
+              <p>
+                BPN is specifically designed for those that are blind or
+                visually impaired. The only requirement to be a member of BPN is
+                that you are blind or visually impaired. If you are not a BVI
+                individual and would like to partner with BPN or be listed on
+                our resource page, please email info@BlindProNet.org.
+              </p>
+              <p>I am: multiple choice answer: *</p>
+              <input type="radio" id="fqa1" name="blind" />
+              <label for="fqa1">Blind</label> <br />
+              <input
+                type="radio"
+                id="fqa2"
+                name="VisuallyImpaired"
+                checked="true"
+              />
+              <label for="fqa2">Visually Impaired</label> <br />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend class="label" id="label_1">Basic Information</legend>
+            <div class="elements" id="panel_1" aria-labeledby="label_1">
+              <input type="text" required name="FirstName" id="fn1" />
+              <label for="fn1"> First Name </label> <br />
+              <input type="text" required name="LastName" id="ln1" />
+              <label for="ln1"> Last Name </label> <br />
+              <input type="email" required name="Email" id="e1" />
+              <label for="e1"> Email </label> <br />
+              <input type="tel" required name="PhoneNumber" id="p1" />
+              <label for="p1"> Phone Number </label> <br />
+              <input
+                type="text"
+                required
+                name="City"
+                id="c1"
+                pattern="[A-Za-z]{2,}"
+                title="2 or more characters"
+              />
+              <label for="c1"> City </label> <br />
+              <input
+                type="text"
+                required
+                name="State"
+                id="s1"
+                pattern="[A-Z]{2}"
+                size="2"
+                title="2 uppercase letters"
+              />
+              <label for="s1"> State </label> <br />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend class="label" id="label_2">Agreement/Disclaimer</legend>
+            <div
+              class="elements"
+              id="panel_2"
+              role="tabpanel"
+              aria-labeledby="label_2"
+            >
+              <input
+                type="checkbox"
+                required
+                name="agreement"
+                id="box1"
+                value="agreement"
+              />
+              <label for="box1">
+                I understand and agree that as a member of BPN, I will be placed
+                on the Blind Professionals Network email mailing list. I also
+                understand that my email address will not be sold or shared with
+                outside entities for promotional purposes.
+              </label>
+              <br />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend class="label" id="label_3">
+              Are you (check all that apply): *
+            </legend>
+            <div class="elements" id="panel_3" aria-labeledby="label_3">
+              <input type="checkbox" name="Status" id="em1" value="employed" />
+              <label for="em1"> Employed </label> <br />
+              <input type="checkbox" name="Status" id="js1" value="JobSeeker" />
+              <label for="js1"> Job Seeker </label> <br />
+              <input
+                type="checkbox"
+                name="Status"
+                id="en1"
+                value="entrepreneur"
+              />
+              <label for="en1"> Entrepreneur </label> <br />
+              <input type="checkbox" name="Status" id="st1" value="student" />
+              <label for="st1"> Student </label> <br />
+              <input type="checkbox" name="Status" id="re1" value="retired" />
+              <label for="re1"> Retired </label> <br />
+              <input type="checkbox" name="Status" id="v1" value="veteran" />
+              <label for="v1"> Veteran </label> <br />
+              <input
+                type="text"
+                name="AdditionalComments"
+                id="ac1"
+                value="AdditionalComments"
+              />
+              <label for="ac1">
+                Please tell us more about yourself (What would you like the
+                group to know about you, i.e., employer, career goals,
+                entrepreneur, field of knowledge/experience…)
+              </label>
+              <br />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend class="label" id="label_4">
+              Do you give permission for your information to be included in the
+              BPN directory? *
+            </legend>
+            <div class="elements" id="panel4" aria-labeledby="label_4">
+              <input type="radio" name="Permission" id="r1" value="yes" />
+              <label for="r1"> Yes </label> <br />
+              <input type="radio" name="Permission" id="r2" value="no" />
+              <label for="r2"> No </label> <br />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend class="label" id="label_5">
+              Would you like to be paired with a BPN mentor? *
+            </legend>
+            <div class="elements" id="panel_5" aria-labeledby="label_5">
+              <input
+                type="radio"
+                name="PairedWithMentor"
+                id="mt1"
+                value="yes"
+              />
+              <label for="mt1"> Yes </label> <br />
+              <input type="radio" name="PairedWithMentor" id="mt2" value="no" />
+              <label for="mt2"> No </label> <br />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend class="label" id="label_6">
+              Are you interested in being a BPN Mentor? *
+            </legend>
+            <div class="elements" id="panel_6" aria-labeledby="label_6">
+              <input type="radio" name="BeingAMentor" id="mtt1" value="yes" />
+              <label for="mtt1"> Yes </label> <br />
+              <input type="radio" name="BeingAMentor" id="mtt2" value="no" />
+              <label for="mtt2"> No </label> <br />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend class="label" id="label_7">
+              How did you hear about BPN? *
+            </legend>
+            <div class="elements" id="panel_7" aria-labeledby="label_7">
+              <input
+                type="checkbox"
+                name="HeardFrom"
+                id="som1"
+                value="socialmedia"
+              />
+              <label for="som1"> Social media (Facebook, Twitter, ETC.) </label>
+              <br />
+              <input type="checkbox" name="HeardFrom" id="faf" value="friend" />
+              <label for="faf"> From a Friend </label> <br />
+              <input
+                type="checkbox"
+                name="HeardFrom"
+                id="fagaoo"
+                value="another"
+              />
+              <label for="fagaoo">
+                From another group and/or organization
+              </label>
+              <br />
+              <input type="checkbox" name="HeardFrom" id="o1" value="other" />
+              <label for="o1"> Other </label> <br />
+              <input type="text" name="HearFromAdditionalComments" id="ac2" />
+              <label for="ac2">
+                Additional comments, questions, suggestions:
+              </label>
+              <br />
+              <button type="submit">Submit</button>
+            </div>
+          </fieldset>
         </div>
-      </fieldset>
-        <fieldset>
-          <legend class="label" id="label_1">Basic Information</legend>
-          <div class="elements" id="panel_1" aria-labeledby="label_1">
-            <input type="text" required name="FirstName" id="fn1" />
-            <label for="fn1"> First Name </label> <br />
-            <input type="text" required name="LastName" id="ln1" />
-            <label for="ln1"> Last Name </label> <br />
-            <input type="email" required name="Email" id="e1" />
-            <label for="e1"> Email </label> <br />
-            <input type="tel" required name="PhoneNumber" id="p1" />
-            <label for="p1"> Phone Number </label> <br />
-            <input type="text" required name="City" id="c1" />
-            <label for="c1"> City </label> <br />
-            <input type="text" required name="State" id="s1" />
-            <label for="s1"> State </label> <br />
-          </div>
-        </fieldset>
-        <fieldset>
-          <legend class="label" id="label_2">Agreement/Disclaimer</legend>
-          <div class="elements" id="panel_2" role="tabpanel" aria-labeledby="label_2">
-            <input type="checkbox" required name="agreement" id="box1" value="agreement" />
-            <label for="box1">
-              I understand and agree that as a member of BPN, I will be placed
-              on the Blind Professionals Network email mailing list. I also
-              understand that my email address will not be sold or shared with
-              outside entities for promotional purposes.
-            </label>
-            <br />
-          </div>
-        </fieldset>
-        <fieldset>
-          <legend class="label" id="label_3">
-            Are you (check all that apply): *
-          </legend>
-          <div class="elements" id="panel_3" aria-labeledby="label_3">
-            <input type="checkbox" name="Status" id="em1" value="employed" />
-            <label for="em1"> Employed </label> <br />
-            <input type="checkbox" name="Status" id="js1" value="JobSeeker" />
-            <label for="js1"> Job Seeker </label> <br />
-            <input type="checkbox" name="Status" id="en1" value="entrepreneur" />
-            <label for="en1"> Entrepreneur </label> <br />
-            <input type="checkbox" name="Status" id="st1" value="student" />
-            <label for="st1"> Student </label> <br />
-            <input type="checkbox" name="Status" id="re1" value="retired" />
-            <label for="re1"> Retired </label> <br />
-            <input type="checkbox" name="Status" id="v1" value="veteran" />
-            <label for="v1"> Veteran </label> <br />
-            <input type="text" name="AdditionalComments" id="ac1" value="AdditionalComments" />
-            <label for="ac1">
-              Please tell us more about yourself (What would you like the
-              group to know about you, i.e., employer, career goals,
-              entrepreneur, field of knowledge/experience…)
-            </label>
-            <br />
-          </div>
-        </fieldset>
-        <fieldset>
-          <legend class="label" id="label_4">
-            Do you give permission for your information to be included in the
-            BPN directory? *
-          </legend>
-          <div class="elements" id="panel4" aria-labeledby="label_4">
-            <input type="radio" name="Permission" id="r1" value="yes" />
-            <label for="r1"> Yes </label> <br />
-            <input type="radio" name="Permission" id="r2" value="no" />
-            <label for="r2"> No </label> <br />
-          </div>
-        </fieldset>
-        <fieldset>
-<legend class="label" id="label_5">
-Would you like to be paired with a BPN mentor? *
-          </legend>
-          <div class="elements" id="panel_5" aria-labeledby="label_5">
-            <input type="radio" name="PairedWithMentor" id="mt1" value="yes" />
-            <label for="mt1"> Yes </label> <br />
-            <input type="radio" name="PairedWithMentor" id="mt2" value="no" />
-            <label for="mt2"> No </label> <br />
-          </div>
-        </fieldset>
-        <fieldset>
-          <legend class="label" id="label_6">
-            Are you interested in being a BPN Mentor? *
-          </legend>
-          <div class="elements" id="panel_6" aria-labeledby="label_6">
-            <input type="radio" name="BeingAMentor" id="mtt1" value="yes" />
-            <label for="mtt1"> Yes </label> <br />
-            <input type="radio" name="BeingAMentor" id="mtt2" value="no" />
-            <label for="mtt2"> No </label> <br />
-          </div>
-        </fieldset>
-        <fieldset>
-          <legend class="label" id="label_7">
-            How did you hear about BPN? *
-          </legend>
-          <div class="elements" id="panel_7" aria-labeledby="label_7">
-            <input type="checkbox" name="HeardFrom" id="som1" value="socialmedia" />
-            <label for="som1"> Social media (Facebook, Twitter, ETC.) </label>
-            <br />
-            <input type="checkbox" name="HeardFrom" id="faf" value="friend" />
-            <label for="faf"> From a Friend </label> <br />
-            <input type="checkbox" name="HeardFrom" id="fagaoo" value="another" />
-            <label for="fagaoo">
-              From another group and/or organization
-            </label>
-            <br />
-            <input type="checkbox" name="HeardFrom" id="o1" value="other" />
-            <label for="o1"> Other </label> <br />
-            <input type="text" name="HearFromAdditionalComments" id="ac2" />
-            <label for="ac2">
-              Additional comments, questions, suggestions:
-            </label>
-            <br />
-            <button type="submit">Submit</button>
-          </div>
-        </fieldset>
-      </div>
-    </form>
-  </main>
-  <footer>
-    <a class="d-block" href="/contact"> Contact Us </a>
-    <a href=""> Copyright </a>
-  </footer>
-</body>
-
+      </form>
+    </main>
+    <footer>
+      <a class="d-block" href="/contact"> Contact Us </a>
+      <a href=""> Copyright </a>
+    </footer>
+  </body>
 </html>
