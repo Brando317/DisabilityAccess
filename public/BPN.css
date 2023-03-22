@@ -26,3 +26,7 @@ display: block;
 #logo {
 height: 250px;
 }
+
+.current {
+border: 1px solid black;
+}
