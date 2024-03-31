@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resource Online Form Build</title>
+    <style>
+      input {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+      Fields
+        organization
+        contactName
+        isContactNameListed
+        phone
+        isPhoneListed
+        companyEmail
+        url
+        description
+        isOrganizationRepresentative
+        acceptedTwoSiteListing
+     -->
+    <form method="POST" data-netlify="true" name="resourceForm">
+      <fieldset>
+        <label for="agency">agency, organization, group, or company Name</label>
+        <input type="text" id="agency" name="organization" value="" required />
+        <label for="cn">Contact Name</label>
+        <input type="text" id="cn" name="contactName" value="" required />
+      </fieldset>
+      <fieldset>
+        <legend>Do you want contact name listed?</legend>
+        <label for="dywcnl1">Yes</label>
+        <input type="radio" id="dywcnl1" name="contactNamesListed" value="" required />
+        <label for="dywcnl2">No</label>
+        <input type="radio" id="dywcnl2" name="contactNamesListed" value="" required />
+      </fieldset>
+      <fieldset>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" value="" required />
+      </fieldset>
+            <fieldset>
+        <legend>Do you want phone listed?</legend>
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" name="phoneListed" value="yes" required />
+        <label for="no">No</label>
+        <input type="radio" id="no" name="phoneListed" value="no" required />
+      </fieldset>
+      <fieldset>
+        <label for="companyEmail"
+          >Company/Organization Email address, listed automatically</label
+        >
+        <input type="email" id="companyEmail" name="email" value="" required />
+        <label for="website">Website, listed automatically</label>
+        <input type="text" id="website" name="website" value="" required />
+        <label for="description"
+          >Brief description of service/Mission, listed automatically</label
+        >
+        <div>
+          <textarea required id="description" rows="5" cols="50" name="description" value=""></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>
+          I am a representative authorized to give consent to BPN to list this
+          agency, organization, group, or company as a resource on the BPN
+          website.
+        </legend>
+        <label for="yes2">I am a representative authorized to give consent to BPN to list this
+          agency, organization, group, or company *</label>
+        <input
+          type="checkbox"
+          id="yes2"
+          name="representativeOfThisAgency"
+          value="" required
+        />
+        </fieldset>
+      <fieldset>
+        <legend>
+          BPN has a partnership with Blind Table Talk, a podcast designated for the blind and visually impaired community. The BTT website has a BVI resource page that mirrors the BPN list of resources. In addition to the BPN website, your listing will also be listed on the Blind Table Talk Website resource page. Please check to indicate if you would like to also promote your listing on the BTT website.
+        </legend>
+        <label for="acknowledge1">Yes</label>
+        <input
+          type="radio"
+          id="acknowledge1"
+          name="acknowledgeTwoSiteListing"
+          value="yes" required
+        />
+        <label for="acknowledge2">No</label>
+        <input
+          type="radio"
+          id="acknowledge2"
+          name="acknowledgeTwoSiteListing"
+          value="no" required
+        />
+      </fieldset>
+    </form>
+
+
+<script>
+
+
+
+</script>
+</body>
+</html>
